@@ -1,0 +1,16 @@
+.navbar-dark {
+    background-color: orange !important;
+}
+
+.bg-dark{
+    background-color: orange !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5) !important;
+    border-color: rgb(255, 255, 255) !important;
+}
+
+table.alignmiddle td{
+    vertical-align: middle !important;
+}
