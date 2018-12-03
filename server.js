@@ -2,7 +2,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-const morgan = require('morgan')
+//const morgan = require('morgan')
 const path = require('path')
 const session = require('express-session')
 const expressValidator = require('express-validator')
@@ -37,7 +37,7 @@ const app = express()
  * Middlewaries used
  */
 app.use(fileUpload())
-app.use(morgan("dev"))
+//app.use(morgan("dev"))
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 // use views, public on ejs
